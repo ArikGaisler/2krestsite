@@ -127,7 +127,8 @@ label.btn.btn-default.offline.active {
 }
 .modal-trigger {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 .btn.default {
     color: #333333;
@@ -196,7 +197,6 @@ label.btn.btn-default.offline.active {
 .tabbable-line {
   margin-top: 70px;
   background: #fd4625;
-  box-shadow: 0px 2px 2px rgba(66, 66, 66, 0.08);
 }
 
 .tabbable-line > .nav-tabs > li {
@@ -292,4 +292,21 @@ border-bottom: 4px solid #fff;
     color: #52b559;
     margin: 0 0 12px 0;
     text-transform: uppercase;
+}
+
+.order-meta-past > li {
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 24px;
+  color: #3e4f5e;
+}
+
+.order-meta-past {
+  margin-bottom: 25px;
+  margin-top: 5px;
+  margin-left: -15px;
+}
+
+.page-footer .page-footer-inner {
+    padding-top: 30px;
 }
