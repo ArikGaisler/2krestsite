@@ -13,7 +13,7 @@ body{
     margin-right: 0px;
     border-right: none!important;
 }
-.pizza-name {
+.order-name {
     display: block;
     font-size: 30px;
     font-weight: 400;
@@ -57,9 +57,11 @@ label.btn.btn-default.offline.active {
     color: #fff;
     border-radius: 100px;
 }
-.pizza-time {
+.order-time {
     font-size: 42px;
     font-weight: 300;
+    margin-top: -5px;
+    margin-bottom: 10px;
 }
 .normal {
     color: #3e4f5e;
@@ -162,7 +164,7 @@ label.btn.btn-default.offline.active {
     text-transform: uppercase;
     margin-bottom: 8px;
 }
-.pizza-name-past {
+.order-name-past {
     display: block;
     font-size: 20px;
     font-weight: 400;
@@ -179,6 +181,7 @@ label.btn.btn-default.offline.active {
 }
 .red {
     color: #fd4625;
+    border-radius: 100px;
 }
 .no-orders {
     display: block;
@@ -256,4 +259,37 @@ border-bottom: 4px solid #fff;
   background: #c3350f;
   box-shadow: none;
   border-radius: 100px;
+}
+
+.mins {
+  font-size: 20px;
+}
+
+.order-meta {
+  margin-bottom: 25px;
+  margin-top: 5px;
+  margin-left: -15px;
+}
+
+.order-meta > li {
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 26px;
+  color: #3e4f5e;
+}
+
+.note {
+  border-radius: 2px;
+  border: 0;
+  background: #eeeeee;
+  box-shadow: none;
+  margin: 5px 0 5px 0;
+}
+
+.order-location {
+    font-size: 16px;
+    font-weight: bold;
+    color: #52b559;
+    margin: 0 0 12px 0;
+    text-transform: uppercase;
 }
